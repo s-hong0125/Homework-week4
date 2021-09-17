@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Button for Start Quiz-->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!--Info Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules</span>
+        </div>
+        <div class = "info_list">
+            <div class = "info">1. You will have only <span>30 seconds</span> per each question. </div>
+            <div class = "info">2. Once you select your answer, it can't be undone. </div>
+            <div class = "info">3. You can't select any option once time goes off. </div>
+            <div class = "info">4. You can't exit from the Quiz while you're playing. </div>
+            <div class = "info">5. You'll get points on the basis of your correct answers. </div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+    </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Test Your Knowledge</div>
+            <div class="timer">
+                <div class="time_left">Time Left</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class ="time_line"></div>
+            
+        </header>
+        <section>
+            <div class = "question">
+            <!--<span>Inside which HTML element do we put the JavaScript?</span> -->
+            </div>
+            <div class = "options">
+                <!--div class = "option">
+                <span>
+                    scripting
+                </span>
+            </div>
+            <div class = "option">
+                <span>
+                    script
+                </span>
+            </div>
+            <div class = "option">
+                <span>
+                    javascript
+                </span>
+            </div>
+            <div class = "option">
+                <span>
+                    js
+                </span>
+            </div>-->
+            </div>
+
+        </section>
+
+        <!--Quiz Box Footer-->
+        <footer>
+            <div class = "totalQ">
+            <!--<span><p>1</p><p>of</p><p>5</p><p>Questions</p></span> -->
+            </div>
+        <button class = "Next_btn">Next</button>
+        </footer>
+        </div>
+
+        <!--Result Box-->
+        <div class="result_box"> 
+        <div class="finish_text">All done!</div>
+        <div class="score_text">
+            <!--<span>Your final score is <p>3</p> out of <p>5</p></span>-->
+        </div>
+        <div class = "buttons">
+            <button class = "tryagain">Try Again</button>
+            <button class = "Exit"> Exit Quiz</button>
+            </div>
+        </div>
+
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
